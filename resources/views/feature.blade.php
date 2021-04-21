@@ -27,8 +27,6 @@
       }
     </style>
 
-    <!-- Custom styles for this template -->
-    <link href="{{ asset('css/cover.css') }}" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -63,7 +61,7 @@
     </header>
 
     <main>
-    <section class="py-5 text-center bg-light">
+    <section class="py-5 text-center container">
         <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">Album example</h1>
@@ -230,7 +228,7 @@
     </div>
     </main>
 
-    <footer class="text-muted py-5 bg-light">
+    <footer class="text-muted py-5">
     <div class="container">
         <p class="float-end mb-1">
         <a href="#">Back to top</a>
