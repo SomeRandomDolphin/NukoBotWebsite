@@ -10,3 +10,7 @@ Nukobot is a discord.js based music bot with extra quality of life features. Nuk
 - Discord-oriented moderating tools
 
 We hope we can make your discord experience better with nukobot
+
+This website is dedicated to featuring the features of nukobot in a cohesive manner. You can view the website using the link below
+
+- **[Website Link]** (https://dj-nukobot-website.herokuapp.com/)
