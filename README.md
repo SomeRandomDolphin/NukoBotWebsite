@@ -2,8 +2,7 @@
 
 ## About Nukobot
 
-Nukobot is a discord.js based music bot with extra quality of life features. \n 
-Nukobot has many features, such as :
+Nukobot is a discord.js based music bot with extra quality of life features. Nukobot has many features, such as :
 
 - In-depth music playing and searching
 - Support for lyrics, specialized for your weeb needs
