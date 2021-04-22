@@ -50,7 +50,7 @@
         </div>
         <div class="navbar navbar-dark bg-dark shadow-sm">
             <div class="container">
-                <img src="{{ asset('image/nukobotpp.jpg') }}" style="margin-right: 10px" width="40" height="40" class="rounded" alt="...">
+                <img src="{{ asset('image/nukobotpp.jpg') }}" style="margin: 5px 10px 5px" width="40" height="40" class="rounded" alt="...">
 
                 <a href="/" class="navbar-brand d-flex align-items-center">
                     <strong>Nukobot</strong>
@@ -61,9 +61,9 @@
                 </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="/home" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="/feature" class="nav-link px-2 text-secondary">Features</a></li>
+                    <li><a href="/about" class="nav-link px-2 text-white">About</a></li>
                     <li><a href="https://discordapp.com/oauth2/authorize?client_id=735721573410930699&scope=bot&permissions=2146958847" target="_blank" class="nav-link px-2 text-white">Invite me!</a></li>
                 </ul>
 

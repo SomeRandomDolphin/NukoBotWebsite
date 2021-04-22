@@ -28,33 +28,113 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="{{ asset('css/cover.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/product.css') }}" rel="stylesheet">
 </head>
-<body class="d-flex h-100 text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
-            <div>
-            <h3 class="float-md-start mb-0">NukoBot</h3>
-            <nav class="nav nav-masthead justify-content-center float-md-end">
-                <a class="nav-link active" aria-current="page" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Home</a>
-                <a class="nav-link" href="/feature">Features</a>
-                <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a>
-            </nav>
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">About Nukobot</h4>
+                <p class="text-muted">Nukobot is a discord.js based music bot with extra quality-of-life features. Nukobot was made out of sheer curiosity in August of 2020 because a certain someone was too bored during lockdown</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contact</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                    <li><a href="#" class="text-white">Like on Facebook</a></li>
+                    <li><a href="#" class="text-white">Email me</a></li>
+                </ul>
+                </div>
             </div>
-        </header>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <img src="{{ asset('image/nukobotpp.jpg') }}" style="margin: 5px 10px 5px" width="40" height="40" class="rounded" alt="...">
 
-        <main class="px-3">
-            <h1>Website in development.</h1>
-            <p class="lead">While we're developing the website, take a look at Nuko sound compilation instead.</p>
-            <p class="lead">
-            <a href="https://www.youtube.com/watch?v=wSHFDhZ7KIo" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Click here</a>
-            </p>
-        </main>
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <strong>Nukobot</strong>
+                </a>
+                
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                </a>
 
-        <footer class="mt-auto text-white-50">
-            <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-        </footer>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="/home" class="nav-link px-2 text-secondary">Home</a></li>
+                    <li><a href="/feature" class="nav-link px-2 text-white">Features</a></li>
+                    <li><a href="/about" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="https://discordapp.com/oauth2/authorize?client_id=735721573410930699&scope=bot&permissions=2146958847" class="nav-link px-2 text-white">Invite me!</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control form-control-dark" placeholder="Search...">
+                </form>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="position-relative overflow-hidden text-center bg-light">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 fw-normal">Punny headline</h1>
+            <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+            <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal">
+            <div class="bg-dark text-center text-white overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Another headline</h2>
+                <p class="lead">And an even wittier subheading.</p>
+            </div>
+            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+            </div>
+            <div class="bg-light text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Another headline</h2>
+                <p class="lead">And an even wittier subheading.</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal">
+            <div class="bg-light text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Another headline</h2>
+                <p class="lead">And an even wittier subheading.</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+            </div>
+            <div class="bg-primary text-center text-white overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Another headline</h2>
+                <p class="lead">And an even wittier subheading.</p>
+            </div>
+            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-muted py-5">
+    <div class="container">
+        <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
     </div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
