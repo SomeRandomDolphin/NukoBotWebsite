@@ -37,7 +37,7 @@
             <h3 class="float-md-start mb-0">NukoBot</h3>
             <nav class="nav nav-masthead justify-content-center float-md-end">
                 <a class="nav-link active" aria-current="page" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Home</a>
-                <a class="nav-link" href="feature">Features</a>
+                <a class="nav-link" href="/feature">Features</a>
                 <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a>
             </nav>
             </div>
