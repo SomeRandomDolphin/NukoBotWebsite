@@ -24,3 +24,7 @@ Route::get('/home', function () {
 Route::get('/feature', function () {
     return view('feature');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
