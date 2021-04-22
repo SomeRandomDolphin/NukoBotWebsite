@@ -52,7 +52,7 @@
             <div class="container">
                 <img src="{{ asset('image/nukobotpp.jpg') }}" style="margin-right: 10px" width="40" height="40" class="rounded" alt="...">
 
-                <a href="#" class="navbar-brand d-flex align-items-center">
+                <a href="/" class="navbar-brand d-flex align-items-center">
                     <strong>Nukobot</strong>
                 </a>
                 
@@ -64,7 +64,7 @@
                     <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-                    <li><a href="https://discordapp.com/oauth2/authorize?client_id=735721573410930699&scope=bot&permissions=2146958847" class="nav-link px-2 text-white">Invite me!</a></li>
+                    <li><a href="https://discordapp.com/oauth2/authorize?client_id=735721573410930699&scope=bot&permissions=2146958847" target="_blank" class="nav-link px-2 text-white">Invite me!</a></li>
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
