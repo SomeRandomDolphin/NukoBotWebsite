@@ -55,7 +55,7 @@
             <div class="container">
                 <img src="{{ asset('image/nukobotpp.jpg') }}" style="margin: 5px 10px 5px" width="40" height="40" class="rounded" alt="...">
 
-                <a href="https://www.youtube.com/watch?v=wSHFDhZ7KIo" class="navbar-brand d-flex align-items-center">
+                <a href="https://www.youtube.com/watch?v=wSHFDhZ7KIo" target="_blank" class="navbar-brand d-flex align-items-center">
                     <strong>Nukobot</strong>
                 </a>
                 
@@ -65,7 +65,7 @@
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     @yield('current_active')
-                    <li><a href="https://discordapp.com/oauth2/authorize?client_id=735721573410930699&scope=bot&permissions=2146958847" class="nav-link px-2 text-white">Invite me!</a></li>
+                    <li><a href="https://discordapp.com/oauth2/authorize?client_id=735721573410930699&scope=bot&permissions=2146958847" target="_blank" class="nav-link px-2 text-white">Invite me!</a></li>
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
