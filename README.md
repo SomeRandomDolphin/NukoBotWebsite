@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/SomeRandomDolphin/NukoBotWebsite" target="_blank"><img src="https://cdn.discordapp.com/attachments/742736222681694381/1155421789602725918/201921113_090743.jpg" width="400"></a></p>
+<p align="center"><a href="https://github.com/SomeRandomDolphin/NukoBotWebsite" target="_blank"><img src="https://cdn.discordapp.com/attachments/742736222681694381/1155421789602725918/201921113_090743.jpg" width="300"></a></p>
 
 ## About Nukobot
 
